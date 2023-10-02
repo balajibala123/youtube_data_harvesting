@@ -33,3 +33,9 @@ Need to install below python install packages
  - **MONGO_PORT = replace port number**
  - **MONGO_DB_NAME = replace db name**
  - **MONGO_COLLECTION_NAME = replace collection name**
+
+## To run the code please enter the below command in terminal
+ 
+streamlit run streamlit.py
+
+once executed the above code you'll get a localhost:port to navigate the web app link
