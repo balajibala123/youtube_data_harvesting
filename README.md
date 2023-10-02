@@ -58,23 +58,16 @@ calling the below functions json data inside overall function
 | Input         | Output       | functions                                       |
 |---------------|--------------|-------------------------------------------------|
 | channel name  | c_id         | channel(youtube, channel_name)                  |
-|---------------|--------------|-------------------------------------------------|
-| channel_id    | p_id         | playlistId(youtube, c_id)                       |
-|---------------|--------------|-------------------------------------------------|
+| channel_id    | p_id         | playlistId(youtube, c_id)                       ||
 | p_id          | Playlist     | videoId(youtube, p_id)                          |
-|---------------|--------------|-------------------------------------------------|
 | c_id          | cd (uploadid)| getChannelStats(youtube, c_id)                  |
-|---------------|--------------|-------------------------------------------------|
 | cd (uploadid) | Original     | getPlaylistId(youtube,cd)                       |
-|---------------|--------------|-------------------------------------------------|
 | Original,Playlist| final_video_id | videoIdFinal(Original,Playlist)            |
-|---------------|--------------|-------------------------------------------------|
-| final_video_id,cd | video_details | getVideoDetails(youtube,final_video_id,cd) |
-|---------------|--------------|-------------------------------------------------|
+| final_video_id,cd | video_details | getVideoDetails(youtube,final_video_id,cd) ||
 | final_video_id| comment_details   | getComment(youtube,final_video_id)         |
-|---------------|--------------|-------------------------------------------------|
 | cd (uploadid) | playlist_Names    | getPlaylistNames(youtube,cd)               |
 
+After passing channel name data will be written into collections
 
 | Input         | Output       | functions                                       |
 |---------------|--------------|-------------------------------------------------|
