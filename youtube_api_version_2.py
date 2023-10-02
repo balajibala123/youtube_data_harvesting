@@ -1,13 +1,3 @@
-# pip install mysql-connector-python
-# pip install tabulate
-# pip install pymysql
-# pip install sqlalchemy
-# pip install googleapiclient.discovery.build
-# pip install google-api-python-client
-# pip install pandas
-# pip install pymongo
-# pip install isodate
-
 from googleapiclient.discovery import build
 import pandas as pd
 from tabulate import tabulate
