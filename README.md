@@ -18,18 +18,18 @@ Need to install below python install packages
  ## To setup we need to have few keys and password in .env file
 
  ## youtube api keys
- - **API_KEY = '<your api keys>'**
- - **V3 = '<your version number>'**
- - **API_SERVICE_NAME = "<your service name>"**
+ - **API_KEY = 'your api keys'**
+ - **V3 = 'your version number'**
+ - **API_SERVICE_NAME = "your service name"**
 
 ## MYSQL DB DETAILS 
- - **MYSQL_HOST_NAME = <replace host name>**
- - **MYSQL_USER_NAME = <replace mysql user name>**
- - **MYSQL_USER_PASSWORD = <replace mysql password here>**
- - **MYSQL_DATABASE_NAME = <replace your database name here>**
+ - **MYSQL_HOST_NAME = replace host name**
+ - **MYSQL_USER_NAME = replace mysql user name**
+ - **MYSQL_USER_PASSWORD = replace mysql password here**
+ - **MYSQL_DATABASE_NAME = replace your database name here**
 
 ## Mongo DB details
- - **MONGO_HOST_NAME = <replace host name>**
- - **MONGO_PORT = <replace port number>**
- - **MONGO_DB_NAME = <replace db name>**
- - **MONGO_COLLECTION_NAME = <replace collection name>**
+ - **MONGO_HOST_NAME = replace host name**
+ - **MONGO_PORT = replace port number**
+ - **MONGO_DB_NAME = replace db name**
+ - **MONGO_COLLECTION_NAME = replace collection name**
