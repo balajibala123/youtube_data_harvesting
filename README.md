@@ -47,6 +47,12 @@ once executed the above code you'll get a localhost:port to navigate the web app
 ## functions in my youtube_api_version_2.py file
 
 
+we've a function called overall where we're getting overall data of a channel
+
+| Input         | Output       | functions                                       |
+| channel_name  | Overall_data | Overall(channel_name)                           |
+
+calling the below functions json data inside overall function
 
 | Input         | Output       | functions                                       |
 |---------------|--------------|-------------------------------------------------|
@@ -67,3 +73,7 @@ once executed the above code you'll get a localhost:port to navigate the web app
 | final_video_id| comment_details   | getComment(youtube,final_video_id)         |
 |---------------|--------------|-------------------------------------------------|
 | cd (uploadid) | playlist_Names    | getPlaylistNames(youtube,cd)               |
+
+
+| Input         | Output       | functions                                       |
+| channel_name  | mongodb collection | mongoDb(channel_name)                     |              
