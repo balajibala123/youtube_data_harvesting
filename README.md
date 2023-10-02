@@ -47,7 +47,7 @@ once executed the above code you'll get a localhost:port to navigate the web app
 ## functions in my youtube_api_version_2.py file
 
 
-|---------------|--------------|-------------------------------------------------|
+
 | Input         | Output       | functions                                       |
 |---------------|--------------|-------------------------------------------------|
 | channel name  | c_id         | channel(youtube, channel_name)                  |
@@ -67,4 +67,3 @@ once executed the above code you'll get a localhost:port to navigate the web app
 | final_video_id| comment_details   | getComment(youtube,final_video_id)         |
 |---------------|--------------|-------------------------------------------------|
 | cd (uploadid) | playlist_Names    | getPlaylistNames(youtube,cd)               |
-|---------------|--------------|-------------------------------------------------|
