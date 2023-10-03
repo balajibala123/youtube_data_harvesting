@@ -72,3 +72,27 @@ After passing channel name data will be written into collections
 | Input         | Output       | functions                                       |
 |---------------|--------------|-------------------------------------------------|
 | channel_name  | mongodb collection | mongoDb(channel_name)                     |              
+
+
+MigrateToMySQL() we're returning all the data and inserting into mysql tables
+
+| Input         | Output       | functions                                       |
+|---------------|--------------|-------------------------------------------------|
+| MongoChannelData() | channel_data (table) | ChannelDataToMySQL()               |
+| MongoPlaylistData() | playlist_data (table) | PlaylistDataToMySQL()            |
+| MongoVideoData() | video_data (table) | VideoDataToMySQL()                     |
+| MongoCommentData() | comment_data (table) | CommentDataToMySQL()               |
+
+we've Q1,Q2,Q3,Q4,Q5,Q6,Q7,Q8,Q9,Q10 functions which retrieves data from the mysql table for the given query
+
+# streamlit.py
+
+we've streamlit.py where we've our code for web interface
+
+# .gitignore
+
+here we're use .env file to ignore, actually we're storing all our creds and api key in .env so we don't want to upload to github for security reasons
+
+## database_connection.py
+
+here we've our youtube, mysql and mongodb connection parameters
